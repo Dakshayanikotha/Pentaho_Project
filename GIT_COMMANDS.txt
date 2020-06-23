@@ -1,0 +1,9 @@
+git init  -- create a empty repo in local repo
+git add . -- add files to stage 
+git commit -m "first commit"  -- commit changes to local repo
+git remote add origin https://github.com/Dakshayanikotha/Pentaho_Project.git
+git push -u origin master -- push changes to central repo (git hub)
+
+
+
+git clone https://github.com/Dakshayanikotha/Pentaho_Project.git
