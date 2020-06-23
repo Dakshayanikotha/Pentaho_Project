@@ -1,0 +1,6 @@
+HTML
+
+XML (Configuration)
+YAML (Yet Another Markup Language )
+
+JSON (Java Script Object Notation)

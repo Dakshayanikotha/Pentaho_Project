@@ -1,0 +1,10 @@
+
+
+
+Transformation:Collection of steps which do data transformation.Data is converted in one form to another form.
+
+
+A job has one start place, and executes one step at a time, with one flow through the steps.
+
+A transformation has many possible start places and all steps execute in parallel. 
+If a step has a step before it, it will take the data in there, and use it.

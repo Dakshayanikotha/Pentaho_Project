@@ -1,0 +1,145 @@
+Linux Commands :
+------------------------
+1.  ls   -- listing files and directories
+2.  ls -lart --long format
+3.  pwd -- present working directory
+4.  touch file.txt  -- creates a empty file
+5.  cat  file.txt --display content
+6.  cat > file1.txt   -- File is not there (create and add content), File is there then replace     			 the content.
+7.  cat >> file2.txt  -- Appending content
+8.  clear 
+9.  rm  test1.txt  -- remove a file
+10. mkdir testdir  -- create a directory
+
+10.a. rmdir directoryname	---to remove directory
+
+11. Permission
+    drwxrwxr-x   
+    d - dir
+    user - rwx  
+          421 = 7 
+   group - rwx 
+          421 = 7 
+   other - r-x 
+          4-1 = 5
+
+   chmod 755 testdir
+   chmod o+x testdir(it gives execute permissions to others)  
+   chmod o-w Aaradhya(it wont give (revokes) write permission to others)
+
+12. rm -r testdir  -- remove directory
+13. cp file1.txt file1copy.txt 
+14. mv file1copy.txt file2.txt -- rename file
+15. ps -- java processes
+16. gzip file1.txt file2.txt  -- compress
+17. gunzip  file1.txt.gz  -- Uncompress
+18. cd -- change directory
+    cd . --current directory 
+    cd hadoop-2.7.1 -- forward directory
+    cd ..  directory back
+    cd ../..  two directory's back
+
+    cd /home/hduser/hadoop-2.7.1
+    cd ~ -- Come back to home dir
+
+19. vi file1.txt
+    <esc>+i  -- insert mode
+    
+   <esc>:wq!
+
+
+20. sudo su - changes to super user (root user)
+
+21. chown
+     sudo adduser newuser1
+     passwd newuser1
+     
+     sudo chown -R newuser1:group1 testdir
+     sudo chmod -R 775 testdir
+
+22. grep 
+
+23. sed 's/111111111/8888888888888/' file1.txt
+
+ 
+24. Set an environment variable temporarly 
+ echo   $PATH
+ export PATH=$PATH:/home/cloudera/dakshayani/bin
+
+ Set an environment variable permanent (per user)
+cd ~  
+vi .bash_profile
+PATH=$PATH:$HOME/bin:/home/cloudera/dakshayani/bin
+
+for all the user 
+
+vi /etc/profile
+:/home/cloudera/dakshayani/bin
+
+
+example 
+export JAVA_HOME=/usr/java/jdk1.7.0_67-cloudera
+export ANT_HOME=/usr/local/apache-ant/apache-ant-1.9.2
+export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.4
+export PATH=/usr/local/firefox:/sbin:$JAVA_HOME/bin:$ANT_HOME/bin:$M2_HOME/bin:$PATH
+
+
+A better way would be to edit your .bash_profile or .profile file (depending on your distribution) to include the above command. That way, it would be done automatically every time you log in.
+
+25. python -m SimpleHTTPServer 
+
+ps -ef | grep python
+ps -aux | grep python
+
+kill -9 pid
+
+
+Shell Script: (test.sh)
+-------------
+http://linuxcommand.org/lc3_learning_the_shell.php
+
+echo $((2+2))
+if true; then echo "It's true."; fi
+if false; then echo "It's true."; fi
+
+
+if condition1 then
+  statements
+else 
+   statements
+
+
+CRON TAB: Scheduling at particular time
+---------
+crontab -l
+crontab -e
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+
+
+ at 2020-06-14 04:05:00
+ 5 	  4 	*       *       *
+ Minute   Hour  day     month   day(week)
+                (month)
+
+*	any value
+,	value list separator
+-	range of values
+/	step values
+@yearly	(non-standard)
+@annually	(non-standard)
+@monthly	(non-standard)
+@weekly	(non-standard)
+@daily	(non-standard)
+@hourly	(non-standard)
+@reboot	(non-standard)
+
+
+*/2 * * * * 

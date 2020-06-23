@@ -1,0 +1,15 @@
+{
+  "connections":{
+  "sourcedb":{"hostname":"localhost",
+              "username":"root",
+              "password":"Mysql@123",
+              "databasename":"source_db"
+  },
+  "targetdb":{"hostname":"localhost",
+              "username":"root",
+              "password":"Mysql@123",
+              "databasename":"target_db"
+}
+
+}
+}

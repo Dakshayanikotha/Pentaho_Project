@@ -1,0 +1,13 @@
+
+
+
+
+Spoon.bat----It is User Interface used to create Jobs and Tranformation.
+Pan.Bat------It is used to run transformation from the command line.
+Kitchen.Bat---It is used to run Jobs from the command line.
+Carte.Bat----Execute your Jobs and Transformation on Web Server.
+Encr.Bat------Helps you to generate encrpted passwords.
+
+
+Carte is a embeded web server.I am running a particular job and transformation on my system but i have limited resources on my 
+system so i would request carte.bat server to take some load of Jobs and transformations.

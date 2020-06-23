@@ -1,0 +1,44 @@
+
+
+-----------------DM Design steps-----------------
+
+There are four steps to design DM.
+
+1:Identify the Business Process
+2:Identify the Grain
+3:Identify the Dimensions
+4:Identify the Facts
+
+
+
+---------------“Adventure Works” Business Questions-----------------
+Sales:-
+• How much were the monthly sales? (sales history)
+• How much were my total sales?
+• How much were my total tax amount?
+• How much were my total Freight amount?
+• Which sales person is the top performer top customer?
+• Which territory is performing (sales) the best?
+• What is our total revenue?
+• Which province has the least/most sales? Is it affected by sales tax imposed on that area?
+
+Dimensions
+
+Dim_Month
+Dim_Sales_Person
+Dim_Customer
+Dim_territory
+Dim_province
+
+Fact_sales
+total sales
+total tax amount
+total freight amount
+total revenue
+Sales_tax
+
+
+
+
+
+

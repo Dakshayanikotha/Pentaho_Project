@@ -1,0 +1,31 @@
+Server Details:
+-----------------
+1. open the cloud.mongodb.com URL
+2. kotha.dakshayani19@gmail.com/Welcome@123
+
+Steps to connect to mongo db:
+-------------------------------
+1. E:
+2. cd E:\Softwares\mongodb-shell-win32-x86_64-2012plus-4.2.7\mongodb-win32-x86_64-2012plus-4.2.7\bin
+3. mongo "mongodb+srv://cluster0-8hwqq.azure.mongodb.net/dak_db" --username mongouser
+4. passwod as Welcome@123
+
+
+Commands: (case sensitive)
+---------
+1. help
+2. show dbs
+3. use dak_db;
+4. db
+5. show collections
+6. db.col.insert({}) 
+7. db.dropDatabase()
+8. createCollection() Method
+   db.createCollection("family")
+9. db.family.drop()
+10. db.family.find()
+    db.family.find().pretty()
+11. db.mycol.update({'title':'MongoDB Overview'},{$set:{'title':'New MongoDB Tutorial'}})
+12. db.mycol.remove({'title':'MongoDB Overview'})
+   
+

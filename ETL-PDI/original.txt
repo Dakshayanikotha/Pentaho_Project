@@ -1,0 +1,70 @@
+
+Dimensional Modeling:
+
+A Dimensional Model is a database structure that is optimized for 
+online queries and Data Warehousing tools.
+
+1:DM is denormalized.
+
+less no of tables,less no of joins
+
+2:DM contains dimensions and facts.
+
+What is difference b/w dimenions and fact.
+
+
+Dimension:
+It contains descriptive/textual value.
+It contains numeric values which do'nt have any impact on the business.
+
+for example:Product_name,customer_name,customer_ID(PK,FK),product_ID(PK<FK)
+
+Fact
+It contains numeric values which have an impact on the business.
+for example:
+sales_amount,tax_amount,unit_sold,product_quantity
+
+metric:aggregation on facts.
+
+
+3:Dimension tables and fact tables
+
+Dimension table:
+Only dimension attributes
+
+Fact table
+Dimension keys
+fact
+
+Customer 
+customer_ID
+Customer_fname
+Customer_Sname
+Customer_address
+customer_phno
+
+Product
+Product_ID
+Product_Name
+Product_description
+Product_Model
+Product_brand
+
+
+Fact_sales
+customer_ID
+Product_ID
+customer_sale
+product_sale
+product_QTY
+cutomer_Order
+product_dicount
+
+Fact_purchase
+
+
+
+
+
+
+

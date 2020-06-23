@@ -1,0 +1,5 @@
+Spoon.bat----It is User Interface used to create Jobs and Transformation.
+Pan.Bat------It is used to run transformation from the command line.
+Kitchen.Bat---It is used to run Jobs from the command line.
+Carte.Bat----Execute your Jobs and Transformation on Web Server.
+Encr.Bat------Helps you to generate encrypted passwords.

@@ -1,0 +1,47 @@
+<employees>
+	<employee>
+		<eid>111</eid>
+		<ename>Dakshayani</ename>
+		<age>35</age>
+		<dept>s/w</dept>		
+	</employee>
+
+	<employee>
+		<eid>222</eid>
+		<ename>Prakash</ename>
+		<age>37</age>
+		<dept>s/w</dept>		
+	</employee>
+	<employee>
+		<eid>333</eid>
+		<ename>Aaradhya</ename>
+		<age>7</age>
+		<dept>Marketing</dept>		
+	</employee>
+	<employee>
+		<eid>444</eid>
+		<ename>Jaanvi</ename>
+		<age>2</age>
+		<dept>hr</dept>		
+	</employee>
+
+
+
+</employees>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

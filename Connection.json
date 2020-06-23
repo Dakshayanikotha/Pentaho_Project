@@ -1,0 +1,20 @@
+{
+ "Connection" : {
+ 
+   "SourceDB" : {
+        "HostName":"localhost",
+		"UserName":"root",
+		"Password":"Mysql@123",
+		"Database":"source_db"
+   },
+	"TargetDB":{
+	
+	    "HostName":"localhost",
+		"UserName":"root",
+		"Password":"Mysql@123",
+		"Database":"target_db"
+	
+	}
+  
+ }
+}

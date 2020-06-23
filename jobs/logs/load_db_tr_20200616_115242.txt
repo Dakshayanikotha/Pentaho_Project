@@ -1,0 +1,7 @@
+2020/06/16 11:52:42 - database_load - Using run configuration [Pentaho local]
+2020/06/16 11:52:42 - database_load - Running transformation using the Kettle execution engine
+2020/06/16 11:52:42 - databaseload - Dispatching started for transformation [databaseload]
+2020/06/16 11:52:42 - Table output.0 - Connected to database [targetconn] (commit=1000)
+2020/06/16 11:52:42 - Table input.0 - Finished reading query, closing connection.
+2020/06/16 11:52:42 - Table input.0 - Finished processing (I=10, O=0, R=0, W=10, U=0, E=0)
+2020/06/16 11:52:42 - Table output.0 - Finished processing (I=0, O=10, R=10, W=10, U=0, E=0)

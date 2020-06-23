@@ -1,0 +1,15 @@
+2020/06/16 10:21:21 - set_var - Using run configuration [Pentaho local]
+2020/06/16 10:21:21 - set_var - Running transformation using the Kettle execution engine
+2020/06/16 10:21:21 - set_var - Dispatching started for transformation [set_var]
+2020/06/16 10:21:21 - JSON input.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2020/06/16 10:21:21 - Set variables.0 - Setting environment variables...
+2020/06/16 10:21:21 - Set variables.0 - Set variable SRCDATABASENAME to value [source_db]
+2020/06/16 10:21:21 - Set variables.0 - Set variable SRCHOSTNAME to value [localhost]
+2020/06/16 10:21:21 - Set variables.0 - Set variable SRCPASSWORD to value [Mysql@123]
+2020/06/16 10:21:21 - Set variables.0 - Set variable SRCUSERNAME to value [root]
+2020/06/16 10:21:21 - Set variables.0 - Set variable TARDATABASENAME to value [target_db]
+2020/06/16 10:21:21 - Set variables.0 - Set variable TARHOSTNAME to value [localhost]
+2020/06/16 10:21:21 - Set variables.0 - Set variable TARPASSWORD to value [Mysql@123]
+2020/06/16 10:21:21 - Set variables.0 - Set variable TARUSERNAME to value [root]
+2020/06/16 10:21:21 - Set variables.0 - Finished after 1 rows.
+2020/06/16 10:21:21 - Set variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
